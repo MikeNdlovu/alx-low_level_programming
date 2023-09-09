@@ -18,7 +18,7 @@ for (a = '0'; a <= '9'; a++)
 putchar(a);
 }
 
-for (J = 'a'; J <= 'f'; J++ )
+for (J = 'a'; J <= 'f'; J++)
 {
 putchar(J);
 }
