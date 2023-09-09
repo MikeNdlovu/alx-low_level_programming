@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - random int range 
- *
- * Return: Always (success)
- */
+* main - random int range 
+*
+* Return: Always (success)
+*/
 int main(void)
-
 {
+
 int n;
 int lastd;
 
