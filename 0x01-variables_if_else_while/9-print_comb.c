@@ -5,12 +5,12 @@
 /**
  * main - printing numbers and commas
  *
- * Return: 0 (success)
+ * Return: 0 (SUCCESS)
 */
 int main(void)
 {
 
-char a;
+int a;
 
 for (a = '0'; a <= '9'; a++)
 {
