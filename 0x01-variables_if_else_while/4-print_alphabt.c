@@ -13,7 +13,7 @@ char z;
 
 for (z = 'a'; z <= 'z'; z++)
 {
-while (z != 'e'; z != 'q')
+while (z != 'e', z != 'q')
 putchar(z);
 }
 
