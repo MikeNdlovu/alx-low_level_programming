@@ -1,11 +1,15 @@
 #include <stdlib.h>
+
 #include <time.h>
+
 #include <stdio.h>
+
 #include <math.h>
-/* 
- *main - Classifies neg, pos & zero
+
+/*
+ * main - Classifies negative and positive numbers
  *
- *Return: Always (success)
+ * Return: Always (success)
 */
 
 int main(void)
