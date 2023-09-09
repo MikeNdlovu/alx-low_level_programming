@@ -9,11 +9,17 @@
 int main(void)
 {
 
+char n;
+char m;
 char z;
+
+z = 'a';
+m = 'q';
+n = 'e';
 
 for (z = 'a'; z <= 'z'; z++)
 {
-while (z != 'e'; z != 'q')
+if (z != m && z != n)
 putchar(z);
 }
 
