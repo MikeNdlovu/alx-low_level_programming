@@ -6,7 +6,7 @@
 *main - Classifies neg, pos & zero 
 *Return: Always (success)
 */
-int main(void
+int main(void)
 {
 
 int d, l, p;
