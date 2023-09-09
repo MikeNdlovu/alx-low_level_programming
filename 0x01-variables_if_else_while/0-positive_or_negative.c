@@ -3,8 +3,9 @@
 #include <stdio.h>
 #include <math.h>
 /* 
-*main - Classifies neg, pos & zero 
-*Return: Always (success)
+ *main - Classifies neg, pos & zero
+ *
+ *Return: Always (success)
 */
 
 int main(void)
@@ -17,7 +18,7 @@ n = rand() - RAND_MAX / 2;
 	
 if (n > 0)
 {
-printf("%d is positve\n", n);
+printf("%d is positive\n", n);
 }
 
 else if (n == 0)
