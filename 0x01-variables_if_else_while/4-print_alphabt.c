@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
-/** 
-*main - Classifies neg, pos & zero 
-*Return: Always (success)
+/**
+ * main - print alpha(z) where z != q & e
+ *
+ * Return: Always (SUCCESS)
 */
 int main(void)
 {
@@ -13,17 +14,16 @@ char n;
 char m;
 char z;
 
+m = 'e';
+n = 'q';
 z = 'a';
-m = 'q';
-n = 'e';
 
 for (z = 'a'; z <= 'z'; z++)
 {
 if (z != m && z != n)
+{
 putchar(z);
 }
-
 putchar('\n');
 return (0);
 }
-
