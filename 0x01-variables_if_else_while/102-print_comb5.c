@@ -4,21 +4,42 @@
 #include <math.h>
 
 /**
- * main - all possible combinations of two digits
+ * main - print all possible four digit code
  *
- * Return: zero (success)
+ * Return: Always (0)
 */
 int main(void)
 {
 
-int a;
+int p;
+int l;
+int k;
+int m;
 
-a = 00;
-
-for (a = 00; a <= 99; a++)
+for (p = '0'; p <= '9'; p++)
 {
-putchar(a);
+for (l = '0'; l <= '9'; l++)
+{
+for (k = p; k <= '9'; k++)
+{
+for (m = l + 1; m <= '9'; m++)
+{
+{
+putchar(p);
+putchar(l);
 putchar(' ');
+putchar(k);
+putchar(m);
+}
+if (p == '9' && l == '8')
+continue;
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
+}
 }
 putchar('\n');
 return (0);
