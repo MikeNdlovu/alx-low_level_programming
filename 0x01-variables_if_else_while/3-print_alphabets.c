@@ -1,27 +1,21 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 
-/** 
-*main - Classifies neg, pos & zero 
-*Return: Always (success)
+/**
+ * main - print alpha
+ *
+ * Return: Always (SUCCESS)
 */
 int main(void)
-
 {
 
 char n;
 
 for (n = 'a'; n <= 'z'; n++)
 {
-putchar(n);
+putchar(m);
 }
-
-for (n = 'A'; n <= 'Z'; n++)
-{
-putchar(n);
-}
-
 putchar('\n');
 return (0);
 }
