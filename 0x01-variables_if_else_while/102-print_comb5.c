@@ -22,10 +22,9 @@ for (l = '0'; l <= '9'; l++)
 {
 for (k = p; k <= '9'; k++)
 {
-for (m = '0'; m <= '9'; m++)
+for (m = l + 1; m <= '9'; m++)
 {
 {
-if (m != l)
 putchar(p);
 putchar(l);
 putchar(' ');
