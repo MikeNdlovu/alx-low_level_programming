@@ -14,7 +14,8 @@ int w;
 
 for (w = 0; w < 10; w++)
 {
-printf("%d \n", w);
+printf("%d", w);
 }
+putchar('\n');
 return (0);
 }
