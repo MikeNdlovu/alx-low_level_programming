@@ -1,29 +1,35 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <math.h>
 
-/** 
-*main - Classifies neg, pos & zero 
-*Return: Always (success)
+/**
+ * main - all possible outcome of three digits
+ *
+ * Return: Zero (Success)
 */
 int main(void)
 {
 
-int d, l, p;
+int a;
+int b;
+int c;
 
-for (d = '0'; d < '9'; d++)
+for (a = '0'; a <= '9'; a++)
 {
-for (l = d + 1; l <= 9; l++)
+for (b = a + 1; b <= '9'; b++)
 {
-for (p = l + 1; l <= '9'; p++)
+for (c = b + 1; c <= '9'; c++)
 {
-if ((l != d) != p)
+if (a != b && b != c)
 {
-putchar(d);
-putchar(l);
-putchar(p);
-if (d == '7' && l == '8')
+putchar(a);
+putchar(b);
+putchar(c);
+}
+if (a > '6')
 continue;
+{
 putchar(',');
 putchar(' ');
 }
