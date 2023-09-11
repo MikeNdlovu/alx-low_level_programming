@@ -1,20 +1,20 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
-/** 
-*main - Classifies neg, pos & zero 
-*Return: Always (success)
+/**
+ * main - printing zero - nine
+ *
+ * Return: Always (SUCCESS)
 */
-int main(void) 
+int main(void)
 {
 
 int w;
 
-for (w = 0; w < 10; w++)
+for (w = '0'; w < '10'; w++)
 {
-printf("%d", w);
+printf("%d\n", w);
 }
-putchar('\n');
 return (0);
 }
