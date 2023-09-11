@@ -24,7 +24,7 @@ if (z != m && z != n)
 {
 putchar(z);
 }
+}
 putchar('\n');
 return (0);
-}
 }
