@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * main - printing reverse alpha
+ * main - print rev alpha
  *
- * Return: Always (success)
+ *Return: Always (SUCCESS)
 */
 int main(void)
-{  
+{
 
 char p;
 
@@ -16,7 +16,6 @@ for (p = 'z'; p >= 'a'; p--)
 {
 putchar(p);
 }
-
 putchar('\n');
 return (0);
 }
