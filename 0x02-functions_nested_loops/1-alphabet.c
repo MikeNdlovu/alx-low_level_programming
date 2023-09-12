@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - _putchar print alpha
+ * print_alphabet - _putchar print alpha
  *
  * Return: 0 (success)
 */
-
 void print_alphabet(void)
 {
 
