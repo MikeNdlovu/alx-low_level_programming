@@ -5,7 +5,7 @@
  * @c: variable to be checked
  * Return: Always (Success) 
 */
-int _isalpha(void)
+int _isalpha(int c)
 {
 
 	if (c >= 'a' && c <= 'z')
