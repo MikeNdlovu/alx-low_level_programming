@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - print putchar
  *
- * Return: Zero (SUCCESS)
-*/
-{
+ * Return: zero (success)
+ */
 
-	putchar('_');
+int main(void)
+{
 	putchar('p');
 	putchar('u');
 	putchar('t');
@@ -16,6 +17,6 @@
 	putchar('a');
 	putchar('r');
 	putchar('\n');
-	
+
 	return (0);
 }
