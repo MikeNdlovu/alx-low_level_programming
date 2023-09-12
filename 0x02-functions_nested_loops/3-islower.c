@@ -5,27 +5,11 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _islower(int c)
 {
-int r, g;
+	if (c >= 'a' && c <= 'z')
+	return (1);
 
-r = 'a';
-g = 'A';
-
-for (r = 'a'; r <= 'z'; r++)
-{
-for (g = 'A'; g <= 'Z'; g++)
-{
-if (r <= 'z')
-{
-return (1);
-}
-else if (g <= 'Z')
-{
-return (0);
-}
-}
-}
-_putchar('\n');
-return (0);
+	else
+	return (0);
 }
