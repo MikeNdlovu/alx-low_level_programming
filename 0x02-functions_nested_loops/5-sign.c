@@ -17,7 +17,7 @@ int print_sign(int n)
 	return (1);
 	}
 
-	while (n = '0')
+	if (n == '0')
 	{
 	_putchar(n);
 	_putchar(',');
