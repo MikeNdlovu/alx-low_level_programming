@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _islower - check the code.
  *
  * Return: Always 0.
  */
 int _islower(int c)
 {
+	c = 'a';
+
 	if (c >= 'a' && c <= 'z')
 	return (1);
 
