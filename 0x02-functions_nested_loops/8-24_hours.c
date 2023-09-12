@@ -2,7 +2,6 @@
 
 /**
  * jack_bauer - prints every minute of the day
- * @J: the hours
  * Return: Always (success)
  */
 
