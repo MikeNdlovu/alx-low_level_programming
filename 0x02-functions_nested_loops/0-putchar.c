@@ -1,10 +1,10 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - print putchar
  *
  * Return: Zero (SUCCESS)
 */
-#include "main.h"
 {
 
 	putchar('_');
