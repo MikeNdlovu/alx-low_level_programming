@@ -13,11 +13,11 @@ int print_sign(int n)
 	_putchar(n);
 	_putchar(',');
 	_putchar(' ');
-	_putchar('\n')
+	_putchar('\n');
 	return (1);
 	}
 
-	if (n = '0')
+	while (n = '0')
 	{
 	_putchar(n);
 	_putchar(',');
