@@ -5,21 +5,20 @@
  *
  * Return: Always success
  */
-
 void print_alphabet_x10(void)
 {
-
-	int a = '0';
-	char b;
 	
-	while (a <= '9')
-	{
-	for (b = 'a'; b <= 'z'; b++)
-	{
-	_putchar(b);
-	}
-	_putchar('\n');
-	a++;
-	}
+int a = '0';
+char b;
+	
+while (a <= '9')
+{
+for (b = 'a'; b <= 'z'; b++)
+{
+_putchar(b);
+}
+_putchar('\n');
+a++;
+}
 }
 
