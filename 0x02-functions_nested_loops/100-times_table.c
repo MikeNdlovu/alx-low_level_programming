@@ -19,17 +19,13 @@ void print_times_table(int n)
 	{
 	if (a < 1 && b > 2)
 	{
-	_putchar(n);
+	printf("%d,   \n", n);
 	}
-	printf("%d,   ", n);
-	}
-	_putchar('\n');
 	if (a > 0 && b < 4)
 	{
-	printf(",   %d", n);
+	printf(",   %d\n", n);
 	}
-	_putchar('\n');
 	}
 	}
 }
-	
+}
