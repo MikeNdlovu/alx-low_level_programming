@@ -4,11 +4,9 @@
  * add - adds two numbers
  * Return: Always (success)
  */
-int add(int, int)
+int add(int b, int a)
 {
 
-	int a;
-	int b;
 	int c;
 
 	c = a + b;
