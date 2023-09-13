@@ -19,7 +19,7 @@ for (b = 0; b <= 9; b++)
 c = b *n;
 
 if (b == 0)
-_putchar(c + '0')
+_putchar(c + '0');
 
 if (c < 10 && b != 0)
 {
