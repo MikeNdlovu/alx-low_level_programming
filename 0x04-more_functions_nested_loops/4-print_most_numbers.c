@@ -5,8 +5,9 @@
  * Return: Always Success
  */
 void print_most_numbers(void)
+
 {
-	
+
 	int p;
 
 	for (p = 0; p <= 9; p++)
