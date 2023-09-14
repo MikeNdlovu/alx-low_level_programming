@@ -23,9 +23,10 @@ int main(void)
         }
 	else
         {
-	while (o < n)
+	for (o = 0; o < n; o++)
+	{
         putchar(y);
-        o++;
         }
         putchar('\n');
+}
 }

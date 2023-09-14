@@ -8,9 +8,9 @@
 void print_line(int n)
 {
 	int y;
+	int b;
 
 	y = '_';
-	int b;
 
 	if (n < 1)
 	{
@@ -21,7 +21,7 @@ void print_line(int n)
 	{
 	for (b = 0; b < n; b++)
 	{
-	_putchar(y);
+	_putchar(y + '0');
 	}
 	_putchar('\n');
 	}
