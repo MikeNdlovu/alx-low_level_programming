@@ -10,8 +10,6 @@ void print_line(int n)
 	int y;
 	int b;
 
-	y = '_';
-
 	if (n < 1)
 	{
 	_putchar('\n');
@@ -21,7 +19,10 @@ void print_line(int n)
 	{
 	for (b = 0; b < n; b++)
 	{
-	_putchar(y + '0');
+	for (y = 0; y < b; y++)
+	{
+	_putchar(95);
+	}
 	}
 	_putchar('\n');
 	}
