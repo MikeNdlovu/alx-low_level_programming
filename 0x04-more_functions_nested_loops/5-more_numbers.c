@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.hii"
 #include <stdio.h>
 
 /**
@@ -28,7 +28,7 @@ void more_numbers(void)
 	}
 	m++;
 	}
-	_putchar(\n);
+	_putchar('\n');
 	l++;
 	}
 }
