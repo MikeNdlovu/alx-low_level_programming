@@ -13,7 +13,7 @@ int a, b;
 a = b = 1;
 
 if (size < 1)
-}
+{
 _putchar('\n');
 }
 
