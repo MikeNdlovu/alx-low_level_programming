@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints \
- * @n: number of time \ gets printed
+ * print_diagonal - prints sumbol
+ * @n: number of times symbol  gets printed
  * Return: Always Success
  */
 void print_diagonal(int n)
