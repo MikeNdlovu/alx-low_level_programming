@@ -1,5 +1,5 @@
-#ifndef main_h
-#define main_h
+#ifndef main_H
+#define main_H
 
 int _isupper(int c);
 int _isdigit(int c);
@@ -12,4 +12,4 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 
-#endif /*main_h*/
+#endif 
