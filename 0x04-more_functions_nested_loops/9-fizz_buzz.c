@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /** 
@@ -9,6 +8,8 @@
 int main(void)
 {
 	int a;
+
+	a = 1;
 
 	for (a = 1; a <= 100; a++)
 	{
@@ -29,6 +30,5 @@ int main(void)
 	printf("%d ", a);
 	}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
-
