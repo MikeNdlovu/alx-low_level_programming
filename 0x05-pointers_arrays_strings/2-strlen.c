@@ -14,6 +14,5 @@ int _strlen(char *s)
 
 	length = strlen(*s);
 	
-	_putchar(length);
-	_putchar('\n');
+	printf("%d\n", length);
 }
