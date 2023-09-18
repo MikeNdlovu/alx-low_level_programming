@@ -9,8 +9,11 @@
 int _strlen(char *s)
 {
 	int length;
+	int p;
 
-	length = strlen(*s);
+	p = *s;
+
+	length = strlen(p);
 	
 	_putchar(length);
 	_putchar('\n');
