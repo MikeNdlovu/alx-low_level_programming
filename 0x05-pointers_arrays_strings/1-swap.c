@@ -9,11 +9,22 @@
 
 int modif(int *c)
 {
-        *c = *a;
-}
-
-void swap_int(int *a, int *b)
-{
-*a = *b;
-modif(*b);           
+	int z = 0;
+	
+	if (*a < z)
+	{
+	*a = *b;
+	}
+	else if (*a > z)
+	{
+	*a = *b;
+	}
+	else if (*b > z)
+	{
+	*b = *a;
+	}
+	else if (*b < z)
+	{
+	*b = *a;
+	}
 }
