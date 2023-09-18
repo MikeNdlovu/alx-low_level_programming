@@ -10,10 +10,12 @@
 
 int _strlen(char *s)
 {
-int length;
+char length;
 char d;
 
 d = *s;
 length = strlen(d);
 printf("%d\n", length);
+
+return (0);
 }
