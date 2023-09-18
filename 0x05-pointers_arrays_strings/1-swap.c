@@ -9,11 +9,10 @@
 
 void swap_int(int *a, int *b)
 {
+	while (*a < *b && *a > *b)
 	{
 		*a = *b;
-	}
 	break;
-	{
 		*b = *a;
 	}
 }
