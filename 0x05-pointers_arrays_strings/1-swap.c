@@ -9,10 +9,11 @@
 
 void swap_int(int *a, int *b)
 {
-	for (*a = *a; *a <= *a; a)
-	{
-		*a = *b;
-	break;
-		*b = *a;
-	}
+*a = *b;
+modif(*b)           
+}
+
+int modif(int *c)
+{
+	*c = *a;
 }
