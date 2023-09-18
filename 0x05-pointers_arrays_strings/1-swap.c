@@ -7,7 +7,7 @@
  * Return: 0 always
  */
 
-int modif(int *c)
+void swap_int(int *a, int *b);
 {
 	int z = 0;
 	
