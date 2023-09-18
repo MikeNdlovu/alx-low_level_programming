@@ -9,22 +9,8 @@
 
 void swap_int(int *a, int *b)
 {
-	int z = 0;
-	
-	if (*a < z)
-	{
+	int z = *a;
+
 	*a = *b;
-	}
-	else if (*a > z)
-	{
-	*a = *b;
-	}
-	else if (*b > z)
-	{
-	*b = *a;
-	}
-	else if (*b < z)
-	{
-	*b = *a;
-	}
+	*b = z;
 }
