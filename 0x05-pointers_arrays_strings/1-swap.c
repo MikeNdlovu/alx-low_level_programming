@@ -9,11 +9,11 @@
 
 void swap_int(int *a, int *b)
 {
-	if (*a <= *b && a* >= *b)
 	{
-	_putchar(*b +'0');
+		*a = *b;
 	}
-	else 
+	break;
 	{
-	_putchar(*b + '0');
+		*b = *a;
+	}
 }
