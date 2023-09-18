@@ -7,13 +7,13 @@
  * Return: 0 always
  */
 
+int modif(int *c)
+{
+        *c = *a;
+}
+
 void swap_int(int *a, int *b)
 {
 *a = *b;
-modif(*b)           
-}
-
-int modif(int *c)
-{
-	*c = *a;
+modif(*b);           
 }
