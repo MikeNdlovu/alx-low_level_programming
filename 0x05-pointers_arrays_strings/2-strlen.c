@@ -12,8 +12,9 @@ int _strlen(char *s)
 {
 char length;
 
-length = size_t strlen(const char *s);
-printf("%d\n", length);
-
-return (0);
+size_t strlen(const char *s);
+size_t length = 0;
+while (*s++)
+length ++;
+return (length);
 }
