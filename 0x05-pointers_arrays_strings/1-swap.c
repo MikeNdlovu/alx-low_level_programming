@@ -15,5 +15,5 @@ void swap_int(int *a, int *b)
 	}
 	else 
 	{
-	_putchar(*b + '0')
+	_putchar(*b + '0');
 }
