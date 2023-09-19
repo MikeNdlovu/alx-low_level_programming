@@ -18,7 +18,8 @@ void print_array(int *a, int n)
 	}
 	while (a[n] < a[f])
 	{
-	a[n++];
+	a[n];
+	n++;
 	}
 	 
 	for (n = 0; n < f; n++)
