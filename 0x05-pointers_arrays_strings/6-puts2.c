@@ -14,10 +14,11 @@ int g, f;
 g = 0;
 f = 1;
 
-for (g = 0; g != f; g++)
+for (g != f; g < f; g++)
 {
 for (f = 1; f >= g; f += 2)
 {
+str[f];
 _putchar(str[g]);
 }
 }
