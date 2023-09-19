@@ -22,10 +22,10 @@ while (s[c++])
 	v++;
 }
 
-for (c = v -1; c >= v / 2; c--)
+for (c = v - 1; c >= v / 2; c--)
 {
 	wtv = s[c];
-	s[c] = s[ v - c - 1];
+	s[c] = s[v - c - 1];
 	s[v - c - 1] = wtv;
 }
 }
