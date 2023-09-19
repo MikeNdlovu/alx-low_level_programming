@@ -25,7 +25,6 @@ void puts_half(char *str)
 	while (c > b && c <= a)
 	{
 	_putchar(str[c]);
-	c++;
 	}
 	}
 	}
