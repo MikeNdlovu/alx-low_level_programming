@@ -9,7 +9,7 @@
  */
 void puts_half(char *str)
 {
-	int a, b, c;
+	int a, b;
 
 	a = 0;
 
@@ -23,5 +23,4 @@ void puts_half(char *str)
 	}
 	}
 	_putchar('\n');
-	}
 }
