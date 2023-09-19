@@ -16,13 +16,13 @@ void print_array(int *a, int n)
 	{
 	f++;
 	}
-
+	for (n = 0; n < f; n++)
+	{
+	a[n];
+	}
 	for (n = 0; n < f; n++)
 	{
 	printf("%d", a[n]);
-	if (n > f - 2)
-	continue;
-	printf(", ");
 	}
 	_putchar('\n');
 }
