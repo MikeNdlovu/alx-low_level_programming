@@ -20,12 +20,15 @@ void puts_half(char *str)
 
 	for (b = 0; b < a / 2; b++)
 	{
+	b++;
+	}
+
 	for (c = 0; c <= a; c++)
 	{
 	while (c > b && c <= a)
 	{
 	_putchar(str[c]);
-	}
+	c++;
 	}
 	}
 	_putchar('\n');
