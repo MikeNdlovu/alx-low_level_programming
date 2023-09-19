@@ -11,16 +11,18 @@ void puts2(char *str)
 {
 int g, f;
 
-g = 0;
-f = 1;
+f = 0;
+g = f++;
 
-for (g != f; g < f; g++)
+while (str[f] != '\0')
 {
-for (f = 1; f >= g; f += 2)
-{
-str[f];
-_putchar(str[g]);
+g++;
+f++;
 }
+
+for (g = 0; g < f; g += 2)
+{
+_putchar(str[g]);
 }
 _putchar('\n');
 }
