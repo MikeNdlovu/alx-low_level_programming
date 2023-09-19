@@ -20,6 +20,12 @@ g++;
 f++;
 }
 
+if (str[g] < 1)
+{
+_putchar('\n');
+}
+
+else
 for (g = 0; g < f; g += 2)
 {
 _putchar(str[g]);
