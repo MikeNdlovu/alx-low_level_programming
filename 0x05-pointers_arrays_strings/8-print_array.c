@@ -16,10 +16,11 @@ void print_array(int *a, int n)
 	{
 	f++;
 	}
-	for (n = 0; n < f; n++)
+	while (a[n] < a[f])
 	{
-	a[n];
+	a[n++];
 	}
+	 
 	for (n = 0; n < f; n++)
 	{
 	printf("%d", a[n]);
