@@ -20,16 +20,17 @@ void puts_half(char *str)
 
 	for (b = 0; b < a / 2; b++)
 	{
-	b++;
+	/*b++;*/
+	_putchar(str[b]);
 	}
 
-	for (c = b + 1; c > b; c++)
+	/*for (c = b + 1; c > b; c++)
 	{
 	while (c < a)
 	{
 	_putchar(str[c]);
 	c++;
 	}
-	}
+	}*/
 	_putchar('\n');
 }
