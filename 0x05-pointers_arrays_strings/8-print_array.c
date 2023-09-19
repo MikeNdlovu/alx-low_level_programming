@@ -11,14 +11,10 @@
 void print_array(int *a, int n)
 {
 	int f;
-	
+
 	while (a[f] != '\0')
 	{
 	f++;
-	}
-	while (a[n] < a[f])
-	{
-	n++;
 	}
 	 
 	for (n = 0; n < f; n++)
