@@ -9,12 +9,12 @@
  */
 char *string_toupper(char *)
 {
-	char b, c;
+	char b, *c;
 	int n;
 
 	for (b = A; b <= Z; b++)
 	{
-	for (n = 0;n <= '\0' ;n++)
+	for (n = 0; n <= '\0' ; n++)
 	{
 	while (c[n] != '\0')
 	{
