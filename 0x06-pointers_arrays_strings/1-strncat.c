@@ -5,7 +5,7 @@
 /**
  * _strncat - concatenates two strings
  * @dest: string added onto
- * @src:string taken from
+ * @src: string taken from
  * @n: number of of chars to take from src
  * Return: Success
  */
