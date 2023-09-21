@@ -6,6 +6,7 @@
 
 /**
  * cap_string - Capitalize all words of a string
+ * @src: string capitalising from
  * Return: Success
  */
 char *cap_string(char *src)

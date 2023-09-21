@@ -6,6 +6,7 @@
 
 /**
  * string_toupper - changes lower case char to upper
+ * @str: string being replaced
  * Return: SUCCESS
  */
 char *string_toupper(char *str)
