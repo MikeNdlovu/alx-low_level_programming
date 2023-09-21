@@ -7,7 +7,7 @@
  * string_toupper - changes lower case char to upper
  * Return: SUCCESS
  */
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
 	char b, *c;
 	int n;
