@@ -26,14 +26,14 @@ char *cap_string(char *src)
 			n++;
 		}
 		}
-		else if (src[n - 1] == ',' || src[n - 1] == ';')
+		else if (src[n - 1] == ',' || src[n - 1] == ';' || src[n] == '!')
 		{
 			if (src[n] >= 'a' && src[n] <= 'z')
 			{
 			src[n] = src[n] - 32;
 			}
 		}
-		else if (src[n - 1] == '.' || src[n - 1] == ' ')
+		else if (src[n - 1] == '.' || src[n - 1] == ' ' || src[n] == '?')
 		{
 			if (src[n] >= 'a' && src[n] <= 'z')
 			{
