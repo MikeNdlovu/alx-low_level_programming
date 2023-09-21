@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * string_toupper - changes lower case char to upper
@@ -9,32 +10,13 @@
  */
 char *string_toupper(char *str)
 {
-	char replcae, new;
-	int len;
-	int n;
+	int n, len;
 
 	len = strlen(str);
 
 	for (n = 0; n < len; n++)
 	{
-	for (replace = 'a'; replace <= 'z'; replace++)
-	{
-	for (new = 'A'; new <= 'Z'; new++)
-	{
-	if (str[n] == replace)
-	{
-	str[n] = new;
+	str[n] = toupper(str[n]);
 	}
-	}
-	}
-	}
-/**	while (str[n] != '\0')
-	{
-	if (str[n] >= 'a' && str[n] <= 'z')
-	{
-		str[n] -= 32;
-		n++;
-	}
-	}*/
 	return (str);
 }
