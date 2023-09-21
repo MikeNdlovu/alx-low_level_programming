@@ -33,7 +33,7 @@ char *cap_string(char *src)
 			src[n] = src[n] - 32;
 			}
 		}
-		else if (src[n - 1] == '.' || src[n] == ' ')
+		else if (src[n - 1] == '.' || src[n - 1] == ' ')
 		{
 			if (src[n] >= 'a' && src[n] <= 'z')
 			{
