@@ -7,20 +7,16 @@
  * string_toupper - changes lower case char to upper
  * Return: SUCCESS
  */
-char *string_toupper(char *c)
+char *string_toupper(char *str)
 {
-	char b, *c;
-	int n;
-
-	for (b = A; b <= Z; b++)
+	int n = 0;
+	while (str[n] != '\0')
 	{
-	for (n = 0; n <= '\0' ; n++)
+	if (str[n] >= 'a' && str[n] <= 'z')
 	{
-	while (c[n] != '\0')
-	{
-		c[n] = c[b];
+		str[n] -=32;
 		n++;
 	}
 	}
-	}
+	return (str);
 }
