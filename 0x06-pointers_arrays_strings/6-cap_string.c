@@ -26,20 +26,18 @@ char *cap_string(char *src)
 			n++;
 		}
 		}
-		else if (src[n] == ' ' && src[n] == ',' && src[n] == ';')
+		else if (src[n - 1] == ',' || src[n - 1] == ';')
 		{
-			while (src[n] >= 'a' && src[n] <= 'z')
+			if (src[n] >= 'a' && src[n] <= 'z')
 			{
-			src[n] = toupper(src[n]);
-			n++;
+			src[n] = src[n] - 32;
 			}
 		}
-		else if (src[n] == '.')
+		else if (src[n - 1] == '.' || src[n] = ' ')
 		{
-			while (src[n] >= 'a' && src[n] <= 'z')
+			if (src[n] >= 'a' && src[n] <= 'z')
 			{
-				src[n] = toupper(src[n]);
-				n++;
+				src[n] = src[n] - 32;
 			}
 		}
 		else
