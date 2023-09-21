@@ -11,5 +11,17 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	strcmp(s1, s2);
+	int m;
+
+	m = strcmp(s1, s2);
+	if (m < 0)
+	{
+		return (-15);
+	}
+	else if (m > 0)
+	{
+		return (15);
+	}
+	else
+	return (0);
 }
