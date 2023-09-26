@@ -1,0 +1,16 @@
+#include <string.h>
+#include "main.h"
+
+/**
+ * print_chessboard - prints chess board
+ * @a: array containing contents
+ * Return: success
+ */
+void print_chessboard(char (*a)[8])
+{
+
+	a[8][8] = {{'r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'},{'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+		{' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},{' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+		{' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},{' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+		{'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},{'R', 'K', 'B', 'Q', 'K', 'B', 'K', 'R'}};
+}
