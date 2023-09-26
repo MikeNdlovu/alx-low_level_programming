@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 unsigned int m;
 
-m = size_t strspn(const char s, const char accept);
+m = strspn(s, accept);
 
 return (m);
 }
