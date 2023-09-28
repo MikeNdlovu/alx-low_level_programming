@@ -11,7 +11,7 @@
 void _print_rev_recursion(char *s)
 {
 	int len = strlen(s);
-	int i = 0;
+	int i = 1;
 	int middle = len / 2;
 	char c;
 
@@ -19,8 +19,7 @@ void _print_rev_recursion(char *s)
 	if (i < middle)
 	{
 		c = s[i];
-		s[i] = s[len - i - 1 ];
+		s[i] = s[len - i - 1];
 		s[len - i - 1] = c;
-
 	}
 }
