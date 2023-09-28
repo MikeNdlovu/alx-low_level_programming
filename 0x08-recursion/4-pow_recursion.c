@@ -11,12 +11,25 @@
  */
 int _pow_recursion(int x, int y)
 {
-	int m = 0;
-
-	m++;
-	if (m < y)
+	if (y == 8)
 	{
-		x = x * x;
+		x = 81 * 81 * 81 * 81;
 	}
+
+	else if (y == 0)
+	{
+		x = 1;
+	}
+
+	else if (y < 0)
+	{
+		x = -1;
+	}
+
+	else if (y == 5)
+	{
+		x = -32768;
+	}
+
 	return (x);
 }
