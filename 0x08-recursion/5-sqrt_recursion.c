@@ -9,9 +9,9 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n % n = 0)
+	if (n % n == 0)
 	{
-		n = n / n
+		n = n / n;
 	}
 
 	else if (n % n != 0)
