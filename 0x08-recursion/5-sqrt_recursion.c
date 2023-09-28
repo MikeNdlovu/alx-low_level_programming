@@ -5,7 +5,7 @@
 /**
  * _sqrt_recursion - prints squar root of n
  * @n: number to be rooted
- * Reurn: success
+ * Return: success
  */
 int _sqrt_recursion(int n)
 {
