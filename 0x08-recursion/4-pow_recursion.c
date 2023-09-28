@@ -13,7 +13,7 @@ int _pow_recursion(int x, int y)
 {
 	int m;
 
-	m = pow(x, y);
+	m = int pow(x, y);
 
 	return (m);
 }
