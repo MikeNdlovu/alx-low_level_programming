@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdio.h>
+#include <math.h>
 
 /**
  * _pow_recursion - returns x to the power y
