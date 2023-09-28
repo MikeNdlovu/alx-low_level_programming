@@ -17,10 +17,6 @@ void _print_rev_recursion(char *s)
 
 	for (n = 0; n < len; n++)
 	{
-		n++;
-	}
-	for (s[n] = len - 1; s[n] >= 0; n--)
-	{
-		s[n] = s[n];
+		s[n] = strrev(s);
 	}
 }
