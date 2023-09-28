@@ -9,14 +9,20 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n % n == 0)
+	int i = 1;
+
+	i++;
+	if (i < 10000)
 	{
-		n = n / n;
+	if (n % n == 0 && n == i * i)
+	{
+		n = i;
 	}
 
-	else if (n % n != 0)
+	else if (n != i * i)
 	{
 		n = -1;
+	}
 	}
 
 	return (n);
