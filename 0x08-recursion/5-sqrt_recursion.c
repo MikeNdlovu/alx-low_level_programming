@@ -14,9 +14,9 @@ int _sqrt_recursion(int n)
 	i++;
 	if (i < 10000)
 	{
-	if (n % n == 0 && n == i * i)
+	if (n % n == 0 && n == 1)
 	{
-		n = i;
+		n = 1;
 	}
 
 	else if (n != i * i)
