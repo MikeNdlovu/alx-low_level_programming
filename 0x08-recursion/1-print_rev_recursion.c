@@ -10,13 +10,15 @@
  */
 void _print_rev_recursion(char *s)
 {
-	gets(s);
-
 	int len = strlen(s);
 	int i;
+	int middle = len / 2;
+	char c;
 
-	for (i = len - 1; i >= 0; i--)
+	for (i = 0; i < middle; i++)
 	{
-		s[i] = s[i];
+		c = s[i];
+		s[i] = s[len - i - 1 ];
+		s[len - i - 1] = c;
 	}
 }
