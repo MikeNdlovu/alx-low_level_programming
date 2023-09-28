@@ -15,14 +15,12 @@ void _print_rev_recursion(char *s)
 	int middle = len / 2;
 	char c;
 
+	i++;
 	if (i < middle)
 	{
 		c = s[i];
 		s[i] = s[len - i - 1 ];
 		s[len - i - 1] = c;
 
-		{
-		return _print_rev_recursion(s + i + 1);
-		}
 	}
 }
