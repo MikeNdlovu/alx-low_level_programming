@@ -10,10 +10,12 @@
  */
 int main(int argc, char *argv[])
 {
+	(void)argv;
+
 	if (argc >= 1)
 	{
-		_putchar(argc);
-		_putchar('\n');
+		printf("%d", argc);
+		putchar('\n');
 	}
 	return (0);
 }
