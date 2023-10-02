@@ -28,13 +28,13 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n", atoi(argv[1]) / 10);
 	}
+	else if (argc == 2 && atoi(argv[1]) % 10 != 0)
+	{
+		printf("%d\n", atoi(argv[1]) % 10);
+	}
 	else if (argc == 2 && atoi(argv[1]) % 25 != 0)
 	{
 		printf("%d\n", atoi(argv[1]) / 25 + atoi(argv[1]) % 25);
-	}
-	else if (argc == 2 && atoi(argv[1]) % 10 != 0)
-	{
-		printf("%d\n", atoi(argv[1]) / 10 + atoi(argv[1]) % 25);
 	}
 	return (0);
 }
