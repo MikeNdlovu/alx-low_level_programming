@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *c
+gcc -Wall -Wextra -Werror -pedantic -c *c
 ar rc *o
