@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main - function that prints the number of arguments passed into it
@@ -11,7 +12,8 @@ int main(int argc, char *argv[])
 {
 	if (argc >= 1)
 	{
-		printf("%d\n", argc);
+		_putchar(argc);
+		_putchar('\n');
 	}
 	return (0);
 }
