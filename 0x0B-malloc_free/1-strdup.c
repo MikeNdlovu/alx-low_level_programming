@@ -10,12 +10,32 @@
  */
 char *_strdup(char *str)
 {
-	int len;
+	int i = 0, n = 1;
+	char *st;
 
-	len = strlen(str);
-	str = malloc(len * sizeof(char));
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
-	str = strdup(str);
+	while (str[n])
+	{
+		n++;
+	}
 
-	return (str);
+	st = malloc((n * sizeof(char)) + 1);
+
+	if (st == NULL)
+	{
+		return (NULL);
+	}
+
+	while (i < n)
+	{
+		st[i] = str[i];
+		i++;
+	}
+
+	st[i] = '\0';
+	return (st);
 }
