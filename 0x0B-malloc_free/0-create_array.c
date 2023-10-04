@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c)
 		inc++;
 	}
 
-	if (ar == NULL)
+	if (size == 0)
 	{
 		printf("failed to allocate memory");
 		return (0);
