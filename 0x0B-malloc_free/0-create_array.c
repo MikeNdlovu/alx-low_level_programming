@@ -14,20 +14,12 @@ char *create_array(unsigned int size, char c)
 	unsigned int inc = 0;
 	char *ar;
 
-	(void)size;
-
 	ar = malloc(size * sizeof(char));
 
 	while (inc < size)
 	{
 		ar[inc] = c;
 		inc++;
-	}
-
-	if (size == 0)
-	{
-		printf("failed to allocate memory");
-		return (0);
 	}
 
 	return (ar);
