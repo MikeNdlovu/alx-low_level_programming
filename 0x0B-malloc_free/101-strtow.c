@@ -21,7 +21,7 @@ char **strtow(char *str)
 	g = malloc(sizeof(char *) * m);
 
 	g = &str;
-	*g = str[m];
+	**g = str[m];
 
 	return (g);
 }
