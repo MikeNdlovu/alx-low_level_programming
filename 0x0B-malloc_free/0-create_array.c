@@ -24,5 +24,10 @@ char *create_array(unsigned int size, char c)
 		inc++;
 	}
 
+	if (ar == NULL)
+	{
+		printf("failed to allocate memory");
+	}
+
 	return (ar);
 }
