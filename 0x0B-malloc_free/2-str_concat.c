@@ -35,22 +35,5 @@ char *str_concat(char *s1, char *s2)
 	if (st == NULL)
 	return (NULL);
 
-	n = 0;
-
-	while (k < l)
-	{
-		if (k <= i)
-		st[k] = s1[k];
-
-		if (k >= i)
-		{
-			st[k] = s2[n];
-			n++;
-		}
-
-		k++;
-	}
-	st = '\0';
-
 	return (st);
 }
