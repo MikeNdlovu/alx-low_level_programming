@@ -22,5 +22,10 @@ char *create_array(unsigned int size, char c)
 		inc++;
 	}
 
+	if (ar == NULL || size == 0)
+	{
+	return (NULL);
+	}
+
 	return (ar);
 }
