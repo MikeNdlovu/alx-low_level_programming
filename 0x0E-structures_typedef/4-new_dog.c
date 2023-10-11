@@ -10,7 +10,10 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	char *s;
+	struct dog dogie;
+	struct dog *s;
+
+	s = &dogie;
 
 	if (s != NULL)
 	{
