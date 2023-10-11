@@ -5,8 +5,7 @@
  * main - prints file name and new line
  * Return: success
  */
-int main(void)
+int main()
 {
-	printf("%s\n", _FILE_);
-	return (0);
+	printf("%s\n", __FILE__);
 }
