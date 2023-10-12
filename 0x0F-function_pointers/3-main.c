@@ -1,4 +1,4 @@
-#include "3-cal.h"
+#include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int (ayii)(int, int);
+	int (*ayii)(int, int);
 
 	if (argc != 4)
 	{
@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	printf("%d\n", ayii(atoi(arg[1]), atoi(arg[3])));
+	printf("%d\n", ayii(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
