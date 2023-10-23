@@ -13,26 +13,26 @@ listint_t *new_node(int);
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-        listint_t *current;
-        listint_t *node;
+	listint_t *current;
+	listint_t *node;
 
-        current = *head;
-        if (head == NULL)
-        return (NULL);
-        node = new_node(n);
-        if (node == NULL)
-                return (NULL);
-        if (*head == NULL)
-        {
-                *head = node;
-                return (*head);
-        }
+	current = *head;
+	if (head == NULL)
+	return (NULL);
+	node = new_node(n);
+	if (node == NULL)
+		return (NULL);
+	if (*head == NULL)
+	{
+		*head = node;
+		return (*head);
+	}
 
-        while (current->next != NULL)
-                current = current->next;
-        current->next = node;
+	while (current->next != NULL)
+		current = current->next;
+	current->next = node;
 
-        return (*head);
+	return (*head);
 }
 
 /**
