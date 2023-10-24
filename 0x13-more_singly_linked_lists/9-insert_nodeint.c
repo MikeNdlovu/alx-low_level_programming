@@ -10,7 +10,7 @@
  * Return: success
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
-{
+{	
 	listint_t *node1 = *head;
 
 	listint_t *node2 = malloc(sizeof(listint_t));
@@ -30,7 +30,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	return (NULL);
 
 	if (node1 != NULL)
-	return (node1);
+	return (node2);
 
 	else
 	return (NULL);
