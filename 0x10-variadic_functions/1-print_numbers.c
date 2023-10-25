@@ -24,10 +24,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	while (p < n && separator != NULL)
 	{
 	x = va_arg(args, int);
-	if (p == 0)
 	printf("%d", x);
-	else
-	printf(", %d", x);
+
+	if (p != n - 1)
+	printf("%s", separator);
+
 	p++;
 	}
 	putchar('\n');
