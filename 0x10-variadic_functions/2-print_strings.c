@@ -18,13 +18,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(strings, n);
 
-	if (separator == NULL)
-	return;
-
-	if (n == 0)
-	return;
-
-	else
 	while(i < n && separator != NULL)
 	{
 	str = va_arg(strings, char *);
