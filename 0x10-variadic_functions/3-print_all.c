@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
-
 /**
  * print_all - prints all formats
  * @format: type of format eg string or float
@@ -13,86 +12,38 @@ void print_all(const char * const format, ...)
 {
 	int i = 0, len;
 	va_list args;
+	char *str, *m = "";
 
 	len = strlen(format);
 
 	va_start(args, format);
 
-	while (i < 1)
+	while (i < len)
 	{
-	switch (format[i])
+	if (format[i] == 's')
 	{
-	case 'i':
-	{
-	int x = va_arg(args, int);
-	printf("%d", x);
-	break;
-	}
+	str = va_arg(args, char *);
 
-	case 'f':
-	{
-	double x = va_arg(args, double); 
-	printf("%f", x);
-	break;
-	}
-	
-	case 's':
-	{
-	char *str = va_arg(args, char *);
 	if (str == NULL)
 	printf("(nil)");
-	else
-	printf("%s", str);
-	break;
-	}
 
-	case 'c':
-	{
-	int x = va_arg(args, int);
-	printf("%c", x);
-	break;
+	else (printf("%s%s", m, str));
 	}
-	}
-	i++;
-	}
-	
-	while (i > 0 && i < len)
-	{
 	switch (format[i])
 	{
-	case 'i':
-	{
-	int x = va_arg(args, int);
-	printf(", %d", x);
+case 'i':
+	printf("%s%d", m, va_arg(args, int));
+	break;
+case 'f':
+	printf("%s%f", m, va_arg(args, double));
+	break;
+case 'c':
+	printf("%s%c", m, va_arg(args, int));
 	break;
 	}
-
-	case 'f':
-	{
-	double x = va_arg(args, double);
-	printf(", %f", x);
-	break;
-	}
-
-	case 's':
-	{
-	char *str = va_arg(args, char *);
-	if (str == NULL)
-	printf("(nil)");
-	else
-	printf(", %s", str);
-	break;
-	}
-
-	case 'c':
-	{
-	int x = va_arg(args, int);
-	printf(", %c", x);
-	break;
-	}
-	}
+	m = ", ";
 	i++;
 	}
-	putchar('\n');
 	va_end(args);
+	putchar('\n');
 }
