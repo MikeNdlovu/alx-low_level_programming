@@ -35,6 +35,9 @@ void print_all(const char * const format, ...)
 	case 'i':
 		printf("%s%d", m, va_arg(args, int));
 		break;
+	default:
+		i++;
+		continue;
 	}
 	m = ", ";
 	i++;
